@@ -80,7 +80,7 @@ const categories = {
 const navMenuData = categories?.data || [];
 // console.log(navMenuData);
 
-const Navbar = () => {
+const ProductDetailsNavber = () => {
   const [hoveredCategory, setHoveredCategory] = useState<string | null>(null);
   const [mobileSubMenu, setMobileSubMenu] = useState<string | null>(null);
 
@@ -112,13 +112,13 @@ const Navbar = () => {
             <div className="flex items-center gap-1">
               <Link
                 href={`/categories/${category.category_slug}`}
-                className={`${pathName === "/auth/register" || pathName === "/auth/login" || pathName === "/products" ? "text-black" : "text-white hover:text-gray-300"}`}
+                className={`text-black`}
               >
                 {category.category_name}
               </Link>
               {category.subcategories.length > 0 && (
                 <ChevronDown
-                  className={`${pathName === "/auth/register" || pathName === "/auth/login" || pathName === "/products" ? "text-black" : "h-4 w-4 text-white"}`}
+                  className={`text-black`}
                 />
               )}
             </div>
@@ -151,7 +151,7 @@ const Navbar = () => {
         <div className="hidden px-3 py-2.5 sm:block">
           <Link
             href={session?.accessToken ? "/" : "/auth/login"}
-            className={`${pathName === "/auth/register" || pathName === "/auth/login" ? "text-black" : "text-white"}`}
+            className={`text-black`}
           >
             <User className="w-6 sm:w-7" />
           </Link>
@@ -161,7 +161,7 @@ const Navbar = () => {
         <Drawer direction="top">
           <DrawerTrigger asChild>
             <button
-              className={`cursor-pointer px-3 py-2.5 ${pathName === "/auth/register" || pathName === "/auth/login" ? "text-black" : "text-white"}`}
+              className={`cursor-pointer px-3 py-2.5 text-black`}
             >
               <Search className="w-6 sm:w-7" />
             </button>
@@ -191,7 +191,7 @@ const Navbar = () => {
         <Drawer direction="right">
           <DrawerTrigger asChild>
             <button
-              className={`block py-2.5 sm:hidden ${pathName === "/auth/register" || pathName === "/auth/login" ? "text-black" : "text-white"}`}
+              className={`block py-2.5 sm:hidden text-black`}
             >
               <AlignCenter className="w-6 sm:w-7" />
             </button>
@@ -268,7 +268,7 @@ const Navbar = () => {
         <Drawer direction="right">
           <DrawerTrigger asChild>
             <button
-              className={`cursor-pointer px-3 py-2.5 ${pathName === "/auth/register" || pathName === "/auth/login" ? "text-black" : "text-white"}`}
+              className={`cursor-pointer px-3 py-2.5 text-black`}
             >
               <BriefcaseBusiness className="w-6 sm:w-7" />
             </button>
@@ -306,4 +306,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default ProductDetailsNavber;
