@@ -1,0 +1,172 @@
+[
+  {
+    "_id": "1",
+    "product_name": "GRID x Steelcase Leap",
+    "product_slug": "grid-x-steelcase-leap",
+    "thumbnail_image": "/chair-1.webp",
+    "additional_images": [
+      {
+        "additional_image": "/chair-2.webp",
+        "additional_image_key": "chair-2.webp",
+        "_id": "1-img"
+      }
+    ],
+    "product_price": 180000,
+    "product_discount_price": 175000,
+    "attributes_details": [],
+    "product_quantity": 20
+  },
+  {
+    "_id": "2",
+    "product_name": "GRID x Steelcase Gesture Chair",
+    "product_slug": "grid-x-steelcase-gesture-chair",
+    "thumbnail_image": "/chair-1.webp",
+    "additional_images": [
+      {
+        "additional_image": "/chair-2.webp",
+        "additional_image_key": "chair-2.webp",
+        "_id": "2-img"
+      }
+    ],
+    "product_price": 180000,
+    "product_discount_price": 175000,
+    "attributes_details": [],
+    "product_quantity": 20
+  },
+  {
+    "_id": "3",
+    "product_name": "GRID x Steelcase Leap",
+    "product_slug": "grid-x-steelcase-leap",
+    "thumbnail_image": "/chair-1.webp",
+    "additional_images": [
+      {
+        "additional_image": "/chair-2.webp",
+        "additional_image_key": "chair-2.webp",
+        "_id": "3-img"
+      }
+    ],
+    "product_price": 180000,
+    "product_discount_price": 175000,
+    "attributes_details": [],
+    "product_quantity": 20
+  },
+  {
+    "_id": "4",
+    "product_name": "GRID x Steelcase Gesture Chair",
+    "product_slug": "grid-x-steelcase-gesture-chair",
+    "thumbnail_image": "/chair-1.webp",
+    "additional_images": [
+      {
+        "additional_image": "/chair-2.webp",
+        "additional_image_key": "chair-2.webp",
+        "_id": "4-img"
+      }
+    ],
+    "product_price": 180000,
+    "product_discount_price": 175000,
+    "attributes_details": [],
+    "product_quantity": 20
+  },
+  {
+    "_id": "5",
+    "product_name": "GRID x Steelcase Leap",
+    "product_slug": "grid-x-steelcase-leap",
+    "thumbnail_image": "/chair-1.webp",
+    "additional_images": [
+      {
+        "additional_image": "/chair-2.webp",
+        "additional_image_key": "chair-2.webp",
+        "_id": "5-img"
+      }
+    ],
+    "product_price": 180000,
+    "product_discount_price": 175000,
+    "attributes_details": [],
+    "product_quantity": 20
+  },
+  {
+    "_id": "6",
+    "product_name": "GRID x Steelcase Gesture Chair",
+    "product_slug": "grid-x-steelcase-gesture-chair",
+    "thumbnail_image": "/chair-1.webp",
+    "additional_images": [
+      {
+        "additional_image": "/chair-2.webp",
+        "additional_image_key": "chair-2.webp",
+        "_id": "6-img"
+      }
+    ],
+    "product_price": 180000,
+    "product_discount_price": 175000,
+    "attributes_details": [],
+    "product_quantity": 20
+  },
+  {
+    "_id": "7",
+    "product_name": "GRID x Steelcase Leap",
+    "product_slug": "grid-x-steelcase-leap",
+    "thumbnail_image": "/chair-1.webp",
+    "additional_images": [
+      {
+        "additional_image": "/chair-2.webp",
+        "additional_image_key": "chair-2.webp",
+        "_id": "7-img"
+      }
+    ],
+    "product_price": 180000,
+    "product_discount_price": 175000,
+    "attributes_details": [],
+    "product_quantity": 0
+  },
+  {
+    "_id": "8",
+    "product_name": "GRID x Steelcase Gesture Chair",
+    "product_slug": "grid-x-steelcase-gesture-chair",
+    "thumbnail_image": "/chair-1.webp",
+    "additional_images": [
+      {
+        "additional_image": "/chair-2.webp",
+        "additional_image_key": "chair-2.webp",
+        "_id": "8-img"
+      }
+    ],
+    "product_price": 180000,
+    "product_discount_price": 175000,
+    "attributes_details": [],
+    "product_quantity": 20
+  },
+  {
+    "_id": "9",
+    "product_name": "GRID x Steelcase Leap",
+    "product_slug": "grid-x-steelcase-leap",
+    "thumbnail_image": "/chair-1.webp",
+    "additional_images": [
+      {
+        "additional_image": "/chair-2.webp",
+        "additional_image_key": "chair-2.webp",
+        "_id": "9-img"
+      }
+    ],
+    "product_price": 180000,
+    "product_discount_price": 175000,
+    "attributes_details": [],
+    "product_quantity": 20
+  },
+  {
+    "_id": "10",
+    "product_name": "GRID x Steelcase Gesture Chair",
+    "product_slug": "grid-x-steelcase-gesture-chair",
+    "thumbnail_image": "/chair-1.webp",
+    "additional_images": [
+      {
+        "additional_image": "/chair-2.webp",
+        "additional_image_key": "chair-2.webp",
+        "_id": "10-img"
+      }
+    ],
+    "product_price": 180000,
+    "product_discount_price": 175000,
+    "attributes_details": [],
+    "product_quantity": 20
+  }
+]
