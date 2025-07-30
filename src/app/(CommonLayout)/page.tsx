@@ -1,12 +1,9 @@
-import Hero from "@/components/user/home/Hero";
-import CategoryFurniture from "@/components/user/home/CategoryFurniture";
-import Featured from "@/components/user/home/Featured";
-import VideoComponent from "@/components/user/home/VideoComponent";
+import CategoryFurniture from "@/components/user/Home/CategoryFurniture";
+import Featured from "@/components/user/Home/Featured";
+import Hero from "@/components/user/Home/Hero";
+import TopCompany from "@/components/user/Home/TopCompany";
+import VideoComponent from "@/components/user/Home/VideoComponent";
 
-import TopCompany from "@/components/user/home/TopCompany";
-// import Navbar from "@/components/user/shared/Navbar";
-import CommonCard from "@/components/user/shared/CommonCard";
-import Footer from "@/components/user/shared/Footer";
 
 export default function Home() {
   return (
