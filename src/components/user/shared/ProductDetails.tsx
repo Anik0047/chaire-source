@@ -233,7 +233,7 @@ const ProductDetails = ({ id }: ProductDetailsProps) => {
   return (
     <div>
       <div className="mt-20 mb-20 grid grid-cols-1 gap-5 sm:mb-32 md:grid-cols-2">
-        <div className="rounded-lg border p-2">
+        <div className="rounded-lg  p-2">
           {/* Main image with zoom effect - No Swiper */}
           <div className="relative mb-4 aspect-square overflow-hidden rounded-lg">
             <div
@@ -309,7 +309,7 @@ const ProductDetails = ({ id }: ProductDetailsProps) => {
             </button>
           </div>
         </div>
-        <div className="rounded-lg border sm:p-6">
+        <div className="rounded-lg  sm:p-6">
           <h1 className="mb-7 text-3xl font-bold">Product Title</h1>
           <div className="mb-2 text-sm font-medium">
             Save <span className="text-orange-500">-6%</span>

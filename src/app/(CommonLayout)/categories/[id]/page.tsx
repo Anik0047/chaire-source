@@ -157,14 +157,14 @@ const page = () => {
       <div>
         <PaginationComponent />
       </div>
-      <div>
+      {/* <div>
         <hr className="mt-20" />
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <div className="mx-auto max-w-[1220px] px-4 py-12">
           <CommonCard />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
